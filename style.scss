@@ -1,0 +1,53 @@
+.App {
+  max-width: 250px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.controls {
+  margin-bottom: 20px;
+
+  &.error {
+    color: #f00;
+    border: 1px solid #f00;
+    padding: 5px 10px;
+  }
+
+  label {
+    font-weight: 500;
+
+    > div {
+      margin-bottom: 10px;
+    }
+
+    &.tAndC {
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+}
+
+.inputText {
+  padding: 5px 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px -1px #eee;
+  width: 100%;
+}
+
+.signinButton {
+  background: lightblue;
+  border: 2px solid deepskyblue;
+  color: blue;
+  width: 100%;
+  padding: 7px 7px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:disabled {
+    background: #ccc;
+    border: 2px solid #aaa;
+    color: #4a4a4a;
+  }
+}
